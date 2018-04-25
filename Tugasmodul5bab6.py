@@ -6,4 +6,4 @@ print ("NAMA : Dimas Aldi Kartika")
 print ("NIM  : 21120117130057")
 print ("----------------------------")
 
-
+from input import masukan

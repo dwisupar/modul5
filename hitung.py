@@ -1,8 +1,9 @@
 class perhitungan (object):
     """description of class"""
     def __init__(self): #default constructor
-        print("")
-
+        print("----------")
+        print("PEMBAYARAN")
+        print("----------")
     def bonekapil1(self):
         diskon = 10/100
         boneka1 = 220000

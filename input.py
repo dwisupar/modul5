@@ -13,17 +13,17 @@ class masukan (perhitungan) :
     print ("----------------------------------------------------")
 
     menu = float(input("PILIH NOMOR BERAPA : "))
-    
+    hitung = perhitungan()
     if menu == 1:
-        
+        hitung.bonekapil1()
     elif menu == 2:
-        
+        hitung.bonekapil2()
     elif menu == 3:
-        
+        hitung.bonekapil3()
     elif menu == 4:
-        
+        hitung.bonekapil4()
     elif menu == 5:
-        
+        hitung.bonekapil5()
     elif menu == 6:
         exit()
     else:

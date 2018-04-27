@@ -12,6 +12,8 @@ class masukan (perhitungan) :
     print ("6. Exit")
     print ("----------------------------------------------------")
 
+try :
+     
     menu = float(input("PILIH NOMOR BERAPA : "))
     hitung = perhitungan()
     if menu == 1:
@@ -29,4 +31,6 @@ class masukan (perhitungan) :
     else:
         print ("Maaf angka yang anda masukan tidak terdaftar di list")
 
+except (ValueError):
+    print("Maaf input yang anda masukan salah")
 
